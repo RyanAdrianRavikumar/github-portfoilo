@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Ravikumar - Portfolio</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <script src="https://kit.fontawesome.com/e8ddfa78d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineering Student | Tutor</p>
+                <h1>Hey, I'm <span>Ryan</span> Ravikumar</h1>
+            </div>
+        </div>    
+    </div>
+  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background.jpeg" alt="Ryan" class="about-img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p></p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Techinical Skills</span><br>Proficieny in progrmaing languages which include - Java, C#, C. Understanding of Programming concepts 
+                                that include - Object-oriented programing, Application Development. Good understanding of database management - MySQL. Full-stack Development
+                             - HTML, CSS, JavaScript, PHP. My Final year project has also given me the experience necessary to develop and design systems for businesses.</li>
+                            <li><span>Soft Skills</span><br>During my experience has a first year student I have gained various soft skills, these include:<br>Setting priorities & Time Management,
+                            since as my year progressed I was assigned a large number of tasks, therefore it was necessary to develop skills that help set priority levels for each daily task
+                            and schedule them properly, ensuring that the most important tasks are completed first and that all task are eventually completed. <br><br>
+                            I have also gained teamwork & leadership skills by working on a number of group-based projects. This skill taught me how important it is to provide motivation,
+                             help those less experienced than me, and finally, gather ideas from each member of the group, while also being able to clearly present your own ideas. <br><br>  
+                            Communication is another skill that I have obtained, by having to communication with clients during my final year project in which they were not familiar with
+                         techinical terms. Another area where I learned this skill was when offering feedback to my peers in a way that is not overly critical of their work.</li>
+                            <li><span>Languages</span><br>English - Full professional proficieny.<br>Sinhala - Limited working proficieny.</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Tutor (Self-Employed)</span><br>2021 - Present<br>I have experience working as a tutor from home for the past few years, teaching a variety of ordinary-level subjects
+                             (Edexcel Syllabus) that include Mathematics, ICT and Computer Science. Throughout my experience as a tutor, I have got the opportunity to teach students of
+                             various different skill levels.<br>
+                            <em>Working hours</em> - 4 hours on weekends.</li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Science, Computing (Software Engineering) - Ongoing</span><br>First year - Diploma in Computer System Design (DCSD) <br>
+                            Current GPA - 3.9</li>
+                            <li><span>Online Courses</span><br>Cisco - Networking Basics, Introduction to Modern AI, Computer Hardware Basics.<br>
+                            AWS Educate - Introduction to Cloud 101.</li>
+                            <li><span>Primary & Secondary Education</span><br>Atamie International School.</li>
+                        </ul>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h2>Employee Management System</h2>
+                    <p>Technologies used - Java as a programing language, netbeans for a development enviroment, MySQL for database management, MVC design pattern for better code structure and
+                        finally Jasper Reports for generating a report that enables management to make decisions.
+                    </p>
+                    <a href="">View Code</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>Library Management System</h2>
+                    <p>Technologies used - HTML for basic website structure, CSS for styling, JavaScript was used for validations and finally, PHP was used to make connections with the database.</p>
+                    <a href="">View Code</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Greenhouse Managemnet Robot</h2>
+                    <p>Coming soon...</p>
+                    <a href="">View Code</a>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="coltact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ryanadrianravikumar@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +94 761885576</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ryan-ravikumar-4900b1322/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Ryan Adrian Ravikumar CV V4.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="coltact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyZb_bfOjlc1lR55bQzN030dmzQaHCIjveDeO4St5-TaM-o_27qaHNPjBj-ULG08MtIvA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function(){
+                msg.innerHTML = "";
+            }, 5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
